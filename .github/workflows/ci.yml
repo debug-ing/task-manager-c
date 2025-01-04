@@ -14,4 +14,4 @@ jobs:
         sudo apt install -y build-essential
     - name: Build project
       run: |
-          gcc -o task_manager task_manager.c
+          make build
